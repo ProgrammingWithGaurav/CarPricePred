@@ -10,7 +10,7 @@ input = (2022, .57, 30000, 1, 0, 1, 1)
 
 def pred_car_price(input_data):
     np_arr = np.asarray(input).reshape(1, -1)
-    return f"Car Price : ${model.predict(np_arr)[0] * 10000}",
+    return f"Car Price : ${model.predict(np_arr)[0] * 100000}",
 
 
 def main():
